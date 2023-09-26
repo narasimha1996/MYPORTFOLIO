@@ -1,0 +1,26 @@
+:host(){
+    /* colors */
+    --blue-color:  #022451;
+    --white-color: #ffff;
+    --Black-color :#181818;
+     --light-grey:#cecece;
+    --dark-grey:#6d6d6d;
+    --brown-color:#483c32;
+
+    /* Size */
+     --size_300 : 300px;   /*min-height */
+     --size_32: 32px;
+     --size_16 : 16px;
+     --size_160 : 160px;
+     --size_08 : 8px;
+     --size_24 : 24px;
+
+     /* percentage */
+     --per_50 : 50%;
+
+}
+
+.userDetailsAndStatsWrapper{
+    background:var(--brown-color);
+    padding: var(--size_16 );
+}

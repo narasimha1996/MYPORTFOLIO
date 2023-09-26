@@ -1,0 +1,64 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Home",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"d1bd00cd-a915-4706-936c-ba9175f3fd04\",\"columns\":[{\"UUID\":\"799fc83c-4cad-471f-9e82-c9dedc38628f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "githubUrl" : "https://github.com/narasimha1996",
+                "linkedinUrl" : "https://www.linkedin.com/in/narasimha-palacholla/",
+                "recordId" : "a035i00000BYfyZAAT",
+                "trailheadUrl" : "https://www.salesforce.com/trailblazer/murali1234",
+                "twitterUrl" : "https://twitter.com/muralipala3333"
+              },
+              "definition" : "c:portfolioBanner",
+              "id" : "0eedc230-a385-42bf-a228-46a8f5e9a86a",
+              "type" : "component"
+            } ],
+            "id" : "799fc83c-4cad-471f-9e82-c9dedc38628f",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "d1bd00cd-a915-4706-936c-ba9175f3fd04",
+          "type" : "component"
+        } ],
+        "id" : "9362aa03-1896-4871-a832-2a53a8dfb1ea",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Home",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "db7f3ff8-26f3-4322-a982-e05f61e9584b",
+          "type" : "component"
+        } ],
+        "id" : "c6ede4ae-fc6f-40db-8965-275d1a138d8e",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "81f637b5-9304-4f59-8729-1ff23376b554",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "home"
+  }
+}

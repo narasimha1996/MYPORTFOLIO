@@ -1,0 +1,58 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Note Taking App",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"1aea3206-eb6e-49fe-a149-b34da89b7513\",\"columns\":[{\"UUID\":\"4374575f-534d-409e-b251-7cc81fcaa549\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:noteTakingApp",
+              "id" : "79ee9a5a-46e0-42e3-813a-4fc7cd2e07b0",
+              "type" : "component"
+            } ],
+            "id" : "4374575f-534d-409e-b251-7cc81fcaa549",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "1aea3206-eb6e-49fe-a149-b34da89b7513",
+          "type" : "component"
+        } ],
+        "id" : "026ea56b-d228-47e3-a8d3-3a4b93596532",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Note Taking App",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "8c2ae8bc-4962-4c8d-9f70-dc950b86e0d4",
+          "type" : "component"
+        } ],
+        "id" : "cbdca08c-779f-4882-940a-dbe4558458b8",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "2264be07-133f-4055-bf1a-05b08461267c",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-note-taking-app"
+  }
+}

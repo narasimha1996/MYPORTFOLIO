@@ -1,0 +1,67 @@
+<template>
+    <div class="box">
+        <div class="slds-grid slds-grid_vertical">
+            <div class="slds-col">
+                <p>Letter of Intent to Request 1099 Printing and/or IRS eFiling Services</p>
+            </div>
+
+            <div>
+                <P>This Letter of Intent hereby requests 1099 Services from Cast and Crew for the 2022 tax year, and is
+                    due by Wednesday, December 14, 2022, via email to &nbsp; <a>PSL1099@castandcrew.com </a>
+                    PSL1099@castandcrew.com.Requests received after Wednesday, December 14, 2022, will not be fulfilled.
+                    Cast and Crew is offering IRS Services including the printing of 1099-MISC and 1099-NEC and/or IRS
+                    eFiling via FIRE upload (Filing Information Returns Electronically)("1099 Services").</P><br />
+            </div>
+
+
+            <div>
+                <P>This Letter of Intent hereby requests 1099 Services from Cast and Crew for the 2022 tax year, and is
+                    due by Wednesday, December 14, 2022, via email to &nbsp; <a>PSL1099@castandcrew.com </a>
+                    PSL1099@castandcrew.com.Requests received after Wednesday, December 14, 2022, will not be fulfilled.
+                    Cast and Crew is offering IRS Services including the printing of 1099-MISC and 1099-NEC and/or IRS
+                    eFiling via FIRE upload (Filing Information Returns Electronically)("1099 Services").</P><br />
+            </div>
+
+
+            <div class="slds-col">
+                <lightning-input class="field" type="text" variant="standard" name="name" label="Customer Signature:"
+                    onchange={handleUsername} value={signature}>
+
+                </lightning-input>
+            </div>
+            <div class="slds-col">
+                <lightning-input class="field" type="text" variant="standard" name="name" label="Customer Name:"
+                    value={Name}>
+
+                </lightning-input>
+            </div>
+
+            <div class="slds-col">
+                <lightning-input class="field" type="Date" variant="standard" name="name" label="Date:" value={Date}>
+                </lightning-input>
+            </div>
+
+            <div class="slds-col">
+                <lightning-radio-group name="radioGroup" label="1099 Services Requested" options={options} value={value}
+                    type="radio"></lightning-radio-group>
+
+            </div>
+
+            <div>
+                <p class="slds-list_horizontal slds-wrap slds-text-align_center " > Estimated Number of 1099s to be printed  &nbsp;
+                    <lightning-input class="field" type="text" variant="label-hidden" name="name"   value={EstNumber}>
+                    </lightning-input>&nbsp; (this estimate is for planning only; you will only be charged for the actual services you recieve).</p>
+            </div>
+
+            
+            <div class="slds-col slds-list_horizontal slds-wrap ">
+                <div class="button slds-text-align_center"  onclick={handleclick}> Next </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+</template>

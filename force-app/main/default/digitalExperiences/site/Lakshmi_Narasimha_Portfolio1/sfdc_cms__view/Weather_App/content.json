@@ -1,0 +1,58 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Weather App",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"5d74c95e-feb6-4f96-9e1a-a33ce977a017\",\"columns\":[{\"UUID\":\"ba6686b8-2c6d-452b-a30a-8a3318312a34\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:weatherApp",
+              "id" : "d7189058-a600-438d-abe0-af03418c2d44",
+              "type" : "component"
+            } ],
+            "id" : "ba6686b8-2c6d-452b-a30a-8a3318312a34",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "5d74c95e-feb6-4f96-9e1a-a33ce977a017",
+          "type" : "component"
+        } ],
+        "id" : "c6f1e468-0888-488d-b6d9-d0a846df4b17",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Weather App",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "2024107e-ca2c-43d6-8064-d345a70701d4",
+          "type" : "component"
+        } ],
+        "id" : "4c4364a0-9e17-4360-b288-af8634a175f8",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "7c68d91b-7991-4ba8-9cb3-96911a7099dd",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-weather-app"
+  }
+}

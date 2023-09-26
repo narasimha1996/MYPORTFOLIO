@@ -1,0 +1,58 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Alarm Clock",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"030d7ab1-c511-4a65-9007-17d1eb1f24dc\",\"columns\":[{\"UUID\":\"fcfe9633-0ea5-49bd-8804-2cba0b3ebab8\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:alarmClockApp",
+              "id" : "06f83941-422f-48c3-98cb-367f5d4e20a0",
+              "type" : "component"
+            } ],
+            "id" : "fcfe9633-0ea5-49bd-8804-2cba0b3ebab8",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "030d7ab1-c511-4a65-9007-17d1eb1f24dc",
+          "type" : "component"
+        } ],
+        "id" : "3cf3cdc2-6790-436b-8773-bcc20f22290c",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Alarm Clock",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "0142627b-5773-4afa-ad80-a63d5b42f761",
+          "type" : "component"
+        } ],
+        "id" : "6340be9b-a46d-4619-8b67-342c7f92f12e",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "c9471034-37c3-4daa-93a6-a369c428675c",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-alarm-clock"
+  }
+}

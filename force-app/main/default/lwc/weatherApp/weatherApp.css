@@ -1,0 +1,135 @@
+:host(){
+    --dark--blue:#091f43;
+    --white:#ffff;
+    --grey:#ccc;
+    --red:#ed2144;
+    --brown:#721c24;
+    --green:#155724;
+    --light--green:#d4edda;
+    --light--pink:#f8d7da;
+}
+
+
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app{
+    background: var(--dark--blue);
+    min-height: 100vh;
+    padding: 12px;
+}
+
+.custom-card{
+    color:var(--white) ;
+    min-width: 350px;;
+    max-width: 400px;
+    border-radius:  8px;
+}
+
+header{
+    font-size: 28px;
+    color: var(--dark--blue);
+    padding: 16px;
+    border-bottom: 1px solid var(--grey);
+    font-weight: 500;
+}
+
+input{
+    width: 100%;
+    text-align: center;
+    outline: none;
+    padding: 16px;
+    text-align: center;
+    color: black;
+    height: 55px;
+    font-size: 24px;
+    border-radius:8px ;
+    border: 1px solid  var(--grey);
+
+}
+
+button{
+    background: var(--red) ;
+    width: 100%;
+    height: 55px;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    border-radius: 8px;
+    color: var(--white);
+
+}
+
+
+/* error message color */
+.success-Msg{
+    color: var(--green);
+    background: var(--light--green);
+    border-radius: 5px;
+    padding: 12px;
+    margin:12px;
+}
+
+
+/* error message color */
+.error-Msg{
+    color: var(--brown);
+    background: var(--light--pink);
+    border-radius: 5px;
+    padding: 12px;
+    margin:12px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding: 20px;
+    color: black;
+}
+
+.feels_like{
+    width:100%;
+    padding: 16px;
+    color: black;
+}
+
+.humidity{
+    border-left:1px solid #ccc;
+    width: 100%;
+    padding: 16px;
+    color: black;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.temperature{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: normal;
+    color: black;
+    padding-top: 24px;
+}
+
+.description, .location{
+    font-size: 24px;
+    line-height: 32px;
+    color: black;
+    padding-top: 20px;
+}
+
+
+.weather_image{
+    max-width: 125px;
+}
+
+.cursor{
+    cursor: pointer;
+}
