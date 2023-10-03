@@ -24,3 +24,10 @@
     background:var(--brown-color);
     padding: var(--size_16 );
 }
+
+@media (max-width:720px) {
+    .userDetailsAndStatsWrapper{
+       text-align: center;
+    }
+    
+}
