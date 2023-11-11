@@ -29,7 +29,9 @@
 
             </lightning-tab>
             <lightning-tab label="Certifications">
-                content 6
+                <template if:true={recordId}>
+                    <c-portfolio-certifications-tab record-id={recordId}></c-portfolio-certifications-tab>
+                </template>
             </lightning-tab>
             <lightning-tab label="others">
                 content 7
