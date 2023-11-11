@@ -20,7 +20,7 @@ export default class PortfolioSkillsTab extends LightningElement {
     fields:[TECH_Skills, SOFT_Skills, SOFTWARE_TOOLS, SOFTWARE_METHODOLOGIES]
 })SkillHandler({data,error}){
         if(data){
-            console.log("skill data", JSON.stringify(data));
+            // console.log("skill data", JSON.stringify(data));
            this.skillsFormat(data);
         }
         if(error){

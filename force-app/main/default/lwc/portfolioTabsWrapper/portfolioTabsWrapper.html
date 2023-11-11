@@ -11,13 +11,22 @@
                 <c-portfolio-personal-projects-tab></c-portfolio-personal-projects-tab>
             </lightning-tab>
             <lightning-tab label="Work Experience">
-               <c-portfolio-work-experience-tab record-id={recordId}></c-portfolio-work-experience-tab>
+                <template if:true={recordId}>
+                    <c-portfolio-work-experience-tab record-id={recordId}></c-portfolio-work-experience-tab>
+                </template>
+
             </lightning-tab>
             <lightning-tab label="Skills">
-                <c-portfolio-skills-tab record-id={recordId}></c-portfolio-skills-tab>
+                <template if:true={recordId}>
+                    <c-portfolio-skills-tab record-id={recordId}></c-portfolio-skills-tab>
+                </template>
+
             </lightning-tab>
             <lightning-tab label="Education">
-                content 5
+                <template if:true={recordId}>
+                    <c-portfolio-education-tab record-id={recordId}></c-portfolio-education-tab>
+                </template>
+
             </lightning-tab>
             <lightning-tab label="Certifications">
                 content 6
