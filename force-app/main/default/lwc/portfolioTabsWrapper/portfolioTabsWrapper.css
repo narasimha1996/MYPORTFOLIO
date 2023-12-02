@@ -1,0 +1,21 @@
+.accordion-Wrapper{
+    background: #fff;
+}
+
+.show-accordion-on-desktop-view{
+    display: block;
+}
+
+.show-accordion-on-mobile-view{
+    display: none;
+}
+
+@media (max-width:1024px) {
+    .show-accordion-on-desktop-view{
+        display: none;
+    }
+
+    .show-accordion-on-mobile-view{
+    display: block;
+}
+}
