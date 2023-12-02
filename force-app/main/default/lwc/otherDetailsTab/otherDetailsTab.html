@@ -1,0 +1,29 @@
+<template>
+    <h2 class="slds-var-m-bottom_medium">SuperBadges</h2>
+    <lightning-layout multiple-rows >
+        <template for:each={superBadges} for:item='Badges'>
+        <lightning-layout-item class="slds-var-m-around_medium" key={Badges} size="12" small-device-size="6" medium-device-size="4" large-device-size="3"
+            padding="around_small">
+            <div class="other-box">
+                <img src={badgeIcon} alt={Badges}>
+                <span class="slds-var-m-left_medium">{Badges}</span>
+            </div>
+
+        </lightning-layout-item>
+    </template>
+    </lightning-layout>
+
+    <h2 class="slds-var-m-bottom_medium">Languages</h2>  
+    <lightning-layout multiple-rows >
+        <template for:each={languages} for:item='lang'>
+        <lightning-layout-item class="slds-var-m-around_medium" key={lang} size="12" small-device-size="6" medium-device-size="4" large-device-size="3"
+            padding="around_small">
+            <div class="other-box">
+                <img src={languageIcon} alt={lang}>
+                <span class="slds-var-m-left_medium">{lang}</span>
+            </div>
+
+        </lightning-layout-item>
+    </template>
+    </lightning-layout>
+</template>

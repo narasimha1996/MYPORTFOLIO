@@ -30,20 +30,17 @@ h2{
     font-size: 18px;
 }
 
-img{
-    height: 60px;
-    margin-right: 16px;
-}
-.Cert-box{
-    background: var(--Black-color);
-    padding: 12px;
-    font-size: 20px;
-    display: flex;
-    border-radius: 5px;
-    justify-content: left;
+.other-box{
+background: var(--Black-color);
+padding: 12px;
+font-size: 20px;
+display: flex;
+border-radius: 5px;
+justify-content: left;
+
 }
 
-.Cert-box:hover{
+.other-box:hover{
     cursor: pointer;
     background-color: var(--brown-color);
 }
@@ -52,4 +49,5 @@ span{
     color:var(--white-color) ;
     place-self: center;
 
+ 
 }

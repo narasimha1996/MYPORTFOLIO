@@ -34,7 +34,9 @@
                 </template>
             </lightning-tab>
             <lightning-tab label="others">
-                content 7
+                <template if:true={recordId}>
+               <c-other-details-tab record-id={recordId}></c-other-details-tab>
+                 </template>
             </lightning-tab>
         </lightning-tabset>
     </div>
