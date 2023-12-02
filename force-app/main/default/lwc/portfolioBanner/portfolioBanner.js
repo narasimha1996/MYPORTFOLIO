@@ -15,7 +15,7 @@ export default class PortfolioBanner extends LightningElement {
     @api twitterUrl; //="https://twitter.com/muralipala3333";
     
 
-    profilePic = `${PortfolioAssets}/PortfolioAssets/DSC_5548.jpg`;
+    profilePic = `${PortfolioAssets}/PortfolioAssets/pic.jpg`;
     linkedin = `${PortfolioAssets}/PortfolioAssets/Social/linkedin.svg`;
     github = `${PortfolioAssets}/PortfolioAssets/Social/github.svg`;
     trailhead = `${PortfolioAssets}/PortfolioAssets/Social/trailhead.svg`;
