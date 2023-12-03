@@ -38,16 +38,19 @@ export default class AlarmClockApp extends LightningElement {
 
     currentTimeHandler(){
         setInterval(()=>{
-
             let dateTime = new Date();
             let hour = dateTime.getHours();
             let min = dateTime.getMinutes();
             let Sec = dateTime.getSeconds();
             let ampm ="AM";
     
-            if(hour ==0){
+            if(hour ===0){
                 hour=12;
-            } else if(hour >=12){
+                ampm = 'Am'
+            } else if(hour ===12){
+                ampm ='PM';
+            }
+            if(hour >=12){
                 hour = hour-12;
                 ampm='PM';
             }
